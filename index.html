@@ -1,0 +1,13 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>open-quake Twitch Login</title>
+<body style="font-family: system-ui, sans-serif">
+  <h1>open-quake Twitch Login</h1>
+  <p>Returning to open-quake...</p>
+  <script>
+    const target = 'http://127.0.0.1:17668/twitch-auth'
+      + location.search
+      + location.hash;
+    location.replace(target);
+  </script>
+</body>
